@@ -1,0 +1,70 @@
+@import url('https://rsms.me/inter/inter.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter var', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply text-dark-900 bg-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 border border-dark-200 text-dark-700 rounded-lg hover:border-primary-500 hover:text-primary-600 transition-colors;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-dark-200 focus:border-primary-500 focus:ring-1 focus:ring-primary-500 outline-none transition-colors;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-dark-900 mb-4;
+  }
+
+  .section-description {
+    @apply text-xl text-dark-600 max-w-3xl mx-auto;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-dark-300 rounded-full hover:bg-dark-400 transition-colors;
+}
+
+/* Custom animations */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}

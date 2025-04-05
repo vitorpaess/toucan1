@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "title": "AI-Powered Micro-Consulting for SMBs",
+    "subtitle": "Expert-level consulting at a fraction of the cost",
+    "cta": "Get Started",
+    "description": "SmartConsult AI provides specialized AI agents that deliver expert-level consulting for small and medium businesses in areas traditionally served only by expensive human consultants."
+  },
+  "features": [
+    {
+      "title": "Affordable Expertise",
+      "description": "Access expert-level consulting at a fraction of traditional costs",
+      "icon": "chart-line"
+    },
+    {
+      "title": "24/7 Availability",
+      "description": "Get guidance whenever you need it, day or night",
+      "icon": "clock"
+    },
+    {
+      "title": "Industry Specialization",
+      "description": "Tailored solutions for your specific business sector",
+      "icon": "building"
+    },
+    {
+      "title": "Actionable Insights",
+      "description": "Clear, implementable recommendations backed by data",
+      "icon": "lightbulb"
+    }
+  ],
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the plan that best fits your business needs",
+    "tiers": [
+      {
+        "name": "Basic",
+        "price": "49",
+        "features": [
+          "Basic AI Consulting",
+          "Email Support",
+          "Monthly Reports",
+          "Basic Analytics"
+        ]
+      },
+      {
+        "name": "Professional",
+        "price": "149",
+        "features": [
+          "Advanced AI Consulting",
+          "Priority Support",
+          "Weekly Reports",
+          "Advanced Analytics",
+          "Custom Solutions"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "499",
+        "features": [
+          "Full AI Consulting Suite",
+          "24/7 Support",
+          "Real-time Reports",
+          "Custom Analytics",
+          "Dedicated AI Agent",
+          "Implementation Support"
+        ]
+      }
+    ]
+  },
+  "marketValidation": {
+    "title": "Market Validation",
+    "stats": [
+      {
+        "number": "31.7M",
+        "label": "Small Businesses in US"
+      },
+      {
+        "number": "$20B",
+        "label": "Annual SMB Consulting Spend"
+      },
+      {
+        "number": "76%",
+        "label": "SMBs Unable to Afford Traditional Consulting"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get Started Today",
+    "description": "Transform your business with AI-powered consulting",
+    "formFields": [
+      {
+        "type": "text",
+        "label": "Company Name",
+        "placeholder": "Enter your company name"
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "placeholder": "Enter your email"
+      },
+      {
+        "type": "select",
+        "label": "Business Size",
+        "options": ["1-10 employees", "11-50 employees", "51-200 employees", "201+ employees"]
+      }
+    ]
+  }
+} 
